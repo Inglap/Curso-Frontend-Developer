@@ -84,7 +84,7 @@ body {
   }
   
   .carousel {
-    overflow: scroll;
+    overflow: hidden;
     padding-left: 30px;
     width: 100%;
     position: relative;
@@ -97,6 +97,7 @@ body {
     font-size: 0;
     white-space: nowrap;
     margin: 70px 0px;
+    /* overflow: hidden; */
     padding-bottom: 10px;
   }
   
@@ -170,7 +171,7 @@ body {
   .carousel-item__details--subtitle {
     color: white;
     font-size: 8px;
-    margin: 3px 0px;
+    margin: 0px 0px;
   }
   
   .footer {
